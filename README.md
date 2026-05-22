@@ -46,5 +46,4 @@ O modelo avalia a aderência e a separação de safras por meio de duas das prin
 
 1. Certifique-se de ter o arquivo contendo a base histórica (`base_credito.csv`) no mesmo diretório do script.
 2. Instale as dependências necessárias:
-   ```bash
-   pip install pandas numpy seaborn matplotlib statsmodels scikit-learn statstests
+   pip install pandas numpy seaborn matplotlib statsmodels scikit-learn statstest
