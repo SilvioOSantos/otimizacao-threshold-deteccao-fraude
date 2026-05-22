@@ -38,7 +38,9 @@ Considerando que o custo de uma fraude é severamente superior ao custo do atrit
 O modelo avalia a aderência e a separação de safras por meio de duas das principais métricas utilizadas por bureaus de crédito e instituições financeiras:
 
 * **AUC (Area Under the Curve):** Mede a capacidade global do modelo em distinguir entre clientes saudáveis e fraudadores.
-* **Coeficiente de Gini:** Utilizado para validar o poder de discriminação do modelo de risco ($Gini = 2 \times AUC - 1$).
+* **Coeficiente de Gini:** Utilizado para validar o poder de discriminação do modelo de risco. É calculado através da fórmula:
+
+$$Gini = 2 \times AUC - 1$$
 
 ---
 
